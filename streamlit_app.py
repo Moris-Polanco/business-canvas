@@ -10,7 +10,7 @@ st.title("Generador de planes de negocios")
 st.caption("Por Moris Polanco")
 
 # Solicitar al usuario que ingrese su idea de negocio
-wish = st.text_input("¿Qué idea tienes? O deja en blanco y espera.")
+wish = st.text_input("¿Qué idea tienes? O deja en blanco y espera. Si quieres generarun nuevo plan, cambia al menos una letra y vuelve a presionar Enter.")
 
 # Utilizar GPT-3 para generar un plan de negocios para la idea del usuario
 model_engine = "text-davinci-003"
